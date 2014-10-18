@@ -1,0 +1,17 @@
+---
+layout: default
+title: knorry blog
+---
+<h2>{{ page.title }}<?h2>
+
+<p>last paper</p>
+
+<ul>
+	{% for post in sit.posts %}
+	
+		<li>{{ post.dae | date_to_string }}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	
+	{% endfor %}
+
+</ul>
+
