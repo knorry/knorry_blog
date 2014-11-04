@@ -5,26 +5,26 @@
 
 
 
-`function aa(){
-	function bb(){
-		echo "asdfas\n";
-		cc();
-		// function  dd(){
-		echo "dddd";
+	`function aa(){
+		function bb(){
+			echo "asdfas\n";
+			cc();
+			// function  dd(){
+			echo "dddd";
+			}
+		}
+			function cc(){
+				echo "ccc\n";
+			}
+	
+		for ($i=0; $i < 4; $i++) { 
+			bb();
+			cc();
 		}
 	}
-		function cc(){
-			echo "ccc\n";
-		}
 
-	for ($i=0; $i < 4; $i++) { 
-		bb();
-		cc();
-	}
-}
-
-aa();
-aa();`
+	aa();
+	aa();`
 
 
 
