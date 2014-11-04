@@ -3,6 +3,8 @@
 
 这样只能调用一次
 
+
+
 `function aa(){
 	function bb(){
 		echo "asdfas\n";
@@ -23,6 +25,8 @@
 
 aa();
 aa();`
+
+
 
 1. test
 2. test2
